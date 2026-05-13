@@ -32,26 +32,51 @@
   gap: 5px;
   padding: 5px;
 }
-.container div {
+.container-2 div {
   padding: 10px;
 }
-.container div.header {
-  grid-area: header;
+.container-2 div.California{
+  grid-area: California;
   text-align: center;
 }
-.container div.sidebar {
-  grid-area: sidebar;
+.container-2 div.Missouri {
+  grid-area: Missouri;
   padding-left: 0;
 }
-.container div.info {
-  grid-area: info;
+.container-2 div.NewYork {
+  grid-area: NewYork;
 }
-.container div.footer {
-  grid-area: footer;
-  text-align: center;  
+
+a{
+  color: #000080;
 }
-div {
-  border: 2px solid limegreen;
+
+a:hover {
+  color: #FF007F;
+}
+
+#Home{
+  background-color:#D9F1FF;
+}
+
+#UnitedStates{
+  background-color:#D9FFFD;
+}
+
+#Europe{
+  background-color:#D9E2FF;
+}
+
+#Peru{
+  background-color:#E0D9FF;
+}
+
+#Lima{
+  background-color:#E0D9FF;
+}
+
+#Cuzco{
+  background-color:#E0D9FF;
 }
 
 
